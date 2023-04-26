@@ -1,9 +1,9 @@
 name: ArmorCode
 
 env:
-  product: Webgoat
-  subProduct: Webgoat Webapp
-  environment: Staging
+  product: Juiceshop
+  subProduct: Juiceshop Webapp
+  environment: Production
   token: ${{secrets.ARMORCODE_TOKEN}}
   buildTool: GITHUB_ACTIONS
   buildNumber: ${{github.run_number}}
